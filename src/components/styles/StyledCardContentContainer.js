@@ -17,5 +17,6 @@ export const StyledCardContentContainer = styled.div`
     font-weight: 400;
     line-height: 25px;
     opacity: 0.75;
+    width: 92.8%;
   }
 `;
