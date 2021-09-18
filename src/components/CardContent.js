@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledCardContentContainer } from "./styles/StyledCardContentContainer";
+import { StyledStatsContainer } from "./styles/StyledStatsContainer";
 
 export const CardContent = () => {
   return (
@@ -11,20 +12,20 @@ export const CardContent = () => {
         Discover the benefits of data analytics and make better decisions
         regarding revenue, customer experience, and overall efficiency.
       </p>
-      <div>
+      <StyledStatsContainer>
         <div>
-          <p>1</p>
-          <p>2</p>
+          <h3>10k+</h3>
+          <p>COMPANIES</p>
         </div>
         <div>
-          <p>3</p>
-          <p>4</p>
+          <h3>314</h3>
+          <p>TEMPLATES</p>
         </div>
         <div>
-          <p>5</p>
-          <p>6</p>
+          <h3>12M+</h3>
+          <p>QUERIES</p>
         </div>
-      </div>
+      </StyledStatsContainer>
     </StyledCardContentContainer>
   );
 };
