@@ -6,4 +6,11 @@ export const StyledCardImg = styled.img`
   height: 100%;
   width: 48.64%;
   border-radius: 0px 8px 8px 0px;
+  @media (max-width: 414px) {
+    width: 100%;
+    height: 240px;
+    top: 0;
+    left: 0;
+    border-radius: 8px 8px 0px 0px;
+  }
 `;
