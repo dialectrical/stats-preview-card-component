@@ -8,6 +8,7 @@ export const StyledCardContentContainer = styled.div`
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
+    margin-bottom: 25px;
   }
   span {
     color: #ab5cdb;
