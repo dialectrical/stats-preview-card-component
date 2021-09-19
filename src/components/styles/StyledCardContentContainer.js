@@ -23,7 +23,7 @@ export const StyledCardContentContainer = styled.div`
     display: inline-block;
     width: 80.88%;
     height: 60%;
-    margin: 280px 31px 32px 31px;
+    margin: 250px 31px 32px 31px;
     h2 {
       font-size: 28px;
       line-height: 32px;

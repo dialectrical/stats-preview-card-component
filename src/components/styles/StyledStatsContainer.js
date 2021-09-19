@@ -25,5 +25,9 @@ export const StyledStatsContainer = styled.div`
     flex-direction: column;
     text-align: center;
     margin: auto;
+    div {
+      height: 56px;
+      margin-bottom: 24px;
+    }
   }
 `;
