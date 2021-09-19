@@ -10,7 +10,7 @@ export const CardImageOverlay = styled.div`
   background-color: rgba(171, 92, 219, 0.5);
   @media (max-width: 414px) {
     width: 100%;
-    height: 240px;
+    height: 30.77%;
     top: 0;
     left: 0;
     margin-left: 0;

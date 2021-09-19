@@ -12,5 +12,6 @@ export const StyledCard = styled.div`
     width: 87.2vw;
     height: 81.5899vh;
     margin: 9.2vh 6.4vw 9.2vh 6.4vw;
+    overflow: scroll;
   }
 `;

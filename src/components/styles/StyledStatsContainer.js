@@ -21,4 +21,13 @@ export const StyledStatsContainer = styled.div`
     margin-top: 0;
     letter-spacing: 1px;
   }
+  @media (max-width: 414px) {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    div {
+      height: 56px;
+      margin-bottom: 24px;
+    }
+  }
 `;

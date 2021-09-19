@@ -19,4 +19,19 @@ export const StyledCardContentContainer = styled.div`
     opacity: 0.75;
     width: 92.8%;
   }
+  @media (max-width: 414px) {
+    display: inline-block;
+    width: 80.88%;
+    height: 60%;
+    margin: 250px 31px 32px 31px;
+    h2 {
+      font-size: 28px;
+      line-height: 32px;
+      text-align: center;
+    }
+    p {
+      width: 100%;
+      text-align: center;
+    }
+  }
 `;
